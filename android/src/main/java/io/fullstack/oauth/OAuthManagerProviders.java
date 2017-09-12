@@ -275,7 +275,7 @@ public class OAuthManagerProviders {
       String scopeStr = null;
       
       if (!rawScopes)
-        scopeStr = OAuthManagerProviders.getScopeString(scopes, ",");
+        scopeStr = OAuthManagerProviders.getScopeString(scopes, " ");
       else
         scopeStr = scopes;
         
